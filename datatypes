@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // let a='3.5';
+        // let b=3.5;
+        // console.log(typeof(a))
+        // document.write(a)
+        // console.log(typeof(h))
+    //     let a=33.5
+    //     console.log("hi + a")
+    //     console.log(`hi+ ${a}`)
+    //    let a=3.5
+    //    let b=3.5
+    //    console.log("hi + a+b")
+    //    console.log(`hii + ${a+b}`)
+    //    document.write(`hii + ${a+b}`)
+    //  let a='hari'
+    //  let b='ram'
+    //  let age=20
+    //  let greeting= `I am ${a+b} , my age is ${age} years old`
+    //  console.log(greeting)
+       let a='sai'
+       let b='kumar'
+       let message= ` Reactjs student = ${a+b}`
+       console.log(message)
+      </script>
+</body>
+</html>
+
+  technical notes
+  Data Types
+Dynamic typed Language
+1)Primitive data type
+2)Non-Primitive Data Type
+To check the type of data type -typeof
+
+PRIMITIVE DATA TYPE : we can store single values
+
+1)Numbers:integers,floats
+2)String: stream of characters  enclosed in quotes
+– Single,double , backtick quotes
+3)Boolean: true or false
+4)Null : empty value or no value
+5)Undefined: declared variable with no value
+
+⇒ Backticks introduced in ES6 version
+It provides extra functionality  , we can insert the variables into them
