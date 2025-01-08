@@ -1,0 +1,92 @@
+vscode
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // let a=5
+        // let b=25
+        // document.write(a/b , "<br>")
+        // document.write(a%b , "<br>")
+        // document.write(a-- , "<br>")
+        // document.write(a*b, "<br>")
+        // document.write(b++)
+    //     let a=5
+    //     let b=15
+    //     a+=30
+    //     b-=5
+    //     document.write(a , "<br>")
+    //     document.write(b)
+//           let a=10
+//           b=5
+//           document.write(a>b && b>11 , "<br>")
+//           document.write(a>b ||  b>11 , "<br>")
+//           document.write(!(a<b) && (a>11))
+    // let a=6
+    // let b=8
+    // document.write(a==b ,"<br>")
+    // document.write(a!=b)
+    // let a=105
+    // let b='105'
+    // document.write(a!=b)
+//      let t=40
+//      let r=(t>40) ? "AC -OFF " : "AC-ON"
+//      document.write(r)
+    //  alert("hello class")
+    //  console.log(alert)
+    //  document.write(alert)
+    // let a= prompt("Enter the name of student")
+    // alert(name)
+     let a=prompt()
+     let b=prompt()
+     document.write(a+b)
+     console.log(typeof(a))
+     document.write(typeof(a))
+    
+   </script>
+</body>
+</html>
+
+technical notes
+Javascript operators 
+1)Arithmetic :
+ Multiplication *
+Division / Quotation
+Modulus operator  % remainder
+Exponential (raised to the power) - **
+++,  - - 
+
+Assignment
++=
+-+
+/=
+%=
+
+Logical Operations
+ 
+And &&
+T and T =T
+Or  ||
+T or F =F
+Not !
+
+Relational operators (Comparison)
+Compare the values 
+>  ,<  ,==  ,>= , <=  , != , === 
+
+
+Conditional operator : Ternary operator(?)
+First evaluates in expression for a true or false:
+Syntax:
+Condition ? c1 : c2
+
+Windows:
+alert(): alert message in the windows
+prompt() :  to take input from the user
+
+
+
