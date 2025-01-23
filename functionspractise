@@ -1,0 +1,114 @@
+theory
+Functions:
+
+⇒A function is reusable block of code
+⇒It can be call anywhere program
+Reusable code: using an existing code without writing it ever we need
+Parameters-values that are declared inside the () while defining the functions
+//Syntax:
+function greet(name)
+Arguments-values which are passed through the parameters at the time of calling the function
+ //Syntax to create a function in javascript
+keyword=function()
+
+Anonymous Function:
+A function without the name , after we create using let keyword and function and assign the values to the function
+
+//prime number
+//fibonacci series: number,add preceding the numbers 0112
+//armstrong number
+// 153=1*3+5*3+3*3=126+27=513
+//leap year
+//palindrome number
+//Code
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // function greet(){
+        //     console.log("HELLO CLASS")
+        // }
+        // greet()
+        // console.log("hii venkat")
+        // greet()
+       //function with parameters
+    //    function g(name){
+    //     console.log("hello"+name)
+    //    }
+    //    let name=prompt("Enter the name?")
+    //    g(name)
+    // //   // add two numbers
+    //  function add(a,b){
+    //       return a+b
+    //    }
+    //    let num1=parseInt(prompt("Enter the first number"))
+    //    let num2=parseInt(prompt("Enter the second number"))
+     
+    //    let result=add(num1,num2)
+    //    document.write("The sum is "+result)
+    //Anonymous function
+    // sum=function(n1,n2){
+    //     let r=n1+n2
+    //     return r
+    // }
+    //   console.log(sum(8,9))
+
+//prime number
+function isPrime(num) {
+    // Check if the number is less than 2 (not prime)
+    if (num <= 1) {
+        return false;
+    }
+
+    // Check if the number is divisible by any number from 2 to sqrt(num)
+    for (let i = 2; i <= Math.sqrt(num); i++) {
+        if (num % i === 0) {
+            return false;  // If divisible, it's not prime
+        }
+    }
+
+    return true;  // If no divisors found, it's prime
+}
+
+
+let number =parseInt(prompt("Enter the number"));
+if (isPrime(number)) {
+    console.log(number + " is a prime number.");
+} else {
+    console.log(number + " is not a prime number.");
+}
+//fibanci series
+//leap number
+//Armstrong number
+function isArmstrong(num) {
+    // Convert the number to a string to easily access individual digits
+    let numStr = num.toString();
+    let numLength = numStr.length;
+
+    let sum = 0;
+    
+    // Loop through each digit, raise it to the power of numLength, and sum them
+    for (let i = 0; i < numLength; i++) {
+        let digit = parseInt(numStr[i]);
+        sum += Math.pow(digit, numLength);
+    }
+
+    // Check if the sum is equal to the original number
+    return sum === num;
+}
+
+// Example usage
+let number1 = 153;
+if (isArmstrong(number1)) {
+    console.log(number1 + " is an Armstrong number.");
+} else {
+    console.log(number1 + " is not an Armstrong number.");
+}
+</script>
+</body>
+</html>
