@@ -1,0 +1,104 @@
+//code
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       //ex:
+    //    let mypromise=new  Promise((resolve,reject) => {
+    //      let success=true
+    //      if(success){
+    //          resolve("The operation was successfully")
+    //      }else{
+    //         reject("The operation failed")
+    //      }
+    //    });
+    //    mypromise
+    //    .then(result =>{
+    //     console.log(result)
+    //    })
+    //    .catch(error => {
+    //     console.log(error)
+    //    })
+   
+       //ex:
+    //    let mypromise=new  Promise((resolve,reject) => {
+    //      let success=true
+    //      if(success){
+    //          resolve("The operation was successfully")
+    //      }else{
+    //         reject("The operation failed")
+    //      }
+    //    });
+    //    mypromise
+    //    .then(result =>{
+    //     console.log(result);
+    //     return result*2
+    //    })
+    //    .then(result =>{
+    //     console.log(result);
+    //     return result+3
+
+    //    })
+    //    .catch(error => {
+    //     console.log(error)
+    //    })
+
+//     let delayedPromise = new Promise((resolve, reject) => {
+//     setTimeout(() => {
+//         resolve("Promise resolved after 2 seconds");
+//     }, 2000); 
+// });
+
+// delayedPromise
+//     .then(result => {
+//         console.log(result); 
+//     })
+//     .catch(error => {
+//         console.log("Error:", error);
+//     });
+  
+
+
+
+    </script>
+</body>
+</html>
+
+//throry
+Promise:
+A promise is a special javascript object that represents the eventual completion (or failure)  of an asynchronous operation
+
+1)three states
+Pending :The initial state,the promise is still waiting for the operation to finish
+Fulfilled: The operation completed successfully
+Rejected: The operation failed
+
+Exp:
+To create a promise new Promise();
+The promise constructor takes a function with two parameters:
+Resolve – to mark as the promise is successful
+Reject – to mark it as failed
+
+Handling:
+  ⇒ .then() method is called when the promise is fulfilled
+It receives the result from the resolve();
+   ⇒ .catch() method is called when promise is rejected;
+It receives the result from the reject();
+
+Chaining promises:
+– you can have chain multiple , then()
+
+1)promise with setTimeOut
+Using setTimeOut the promise will resolve after certain amount of time
+
+
+
+
+
+
+
