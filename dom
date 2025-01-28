@@ -1,0 +1,72 @@
+
+DOM(Document Object Model)
+⇒It is programming interface in web development  that allows us to interact and manipulate (change) the html documents
+⇒When the webpage is loaded, the browser creates the DOM of the webpage.
+⇒When the html file is loaded in the browser , the javascript cannot understand the html document directly .
+⇒DOM : is basically the representation of the same html document but in a tree-like structure composed of objects.
+⇒Html DOM allows javascript to access (to get) and modify all the elements in the HTML document.
+
+Key Points:
+1)Structure:The DOM represents the structure of the HTML document as tree;each node in the tree represents the element an attribute,text
+2)Manipulation : using js,you can interact with elements (buttons,h,p) , we can modify , add, move,remove elements
+Change Styles;
+3)Event Handling:
+4)W3C - World Wide Web Consortium - international standard to implement  the web
+
+
+
+
+
+In DOM all html elements are defined objects
+Property: is a value that you can set to the objects
+(Like changing content of an html element)
+Method: an action
+(like add or delete)
+
+1)getting an element by id
+2) getting an element by class:
+⇒ returns all the elements having the same class name
+⇒ returns in the form of html collection 
+3)getting an element by tagname
+4)getting an element by queryselector
+
+  //code
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Groups</title>
+    <style>
+        .a{
+            color: red;
+        }
+        .b{
+            color: blue;
+        }
+        .c{
+            color: goldenrod;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="b">Mallesh</h1>
+<h1 class="b">saicharan</h1>
+<h1 class="b">Venkat</h1>
+<h1 class="c">Hari</h1>
+<h1 class="a">kavya</h1>
+<h1 class="a">Anusha</h1>
+<h1 class="a">Ramya</h1>    
+<h1 class="c">Ganesh</h1>
+<h1 class="b">Ravi teja</h1>
+<!-- g1= g1=anu,kavya,ram=blue -->
+ 
+
+
+<script>
+    let x=document.getElementById("a")
+    console.log(x)
+    
+</script>
+</body>
+</html>
