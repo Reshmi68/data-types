@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <h1 class="a">sal</h1>
+    <h1 class="a">ravi</h1>
+    <script>
+        let x=document.getElementsByClassName('a')
+        console.log(x)
+        //prints each element
+        for(let i=0;i<x.length;i++){
+            console.log(x[i])
+        }
+    </script> -->
+    <!-- <h1 class="a">sal</h1>
+    <h1 class="a">ravi</h1>
+    <script>
+        let x=document.getElementsByTagName('h1')
+        console.log(x)
+        //prints each element
+        for(let i=0;i<x.length;i++){
+            console.log(x[i])
+        }
+    </script> -->
+    <!-- <h1 class="a">ravi</h1>
+    <h1 class="b">sam</h1>
+    <h1 class="a">raju</h1>
+    <h1 class="a">sai</h1>
+    <script>
+        let x=document.querySelector('h1')
+        console.log(x)
+    </script> -->
+    <script>
+    // let t=document.createElement('h2')
+    // t.className="tt";
+    // t.textContent="I am in hyd"
+    // console.log(t)
+    // const t=["reshmi","kavya","srreee"]
+    // for(let i=0;i<t.length;i++){
+    //     let tt=document.createElement('h2')
+    //     tt.className="aa"
+    //     tt.textContent=t[i];
+    //     console.log(tt)
+    // }
+    let title
+    for(let i=0;i<3;i++){
+        title=document.createElement('h1')
+        title.className='t'
+        title.textContent=i
+        console.log(i)
+
+    }
+</script>
+</body>
+</html>
+//theory
+getElementId(): returns the element by having given the id value.targets a single element 
+
+getElementbyClassName() : returns all the elements having the same class name
+HTML Collection object 
+
+Collection object:
+An HTML collection is array like list of HTML elements
+Length property provides the size of the html elements
+
+QuerySelector
+Queryselector:used to select HTML element by its className ,tagname;it selects only the first element
+
+Can be used to select the elements by its tagname or classname.It returns  a node list which is an array like object
+
+Manipulate Elements:
+To create a HTML element:
+–createElement()
+–document.createElement()
+–This method takes an HTML  element tag name as a string parameter.
+We can create multiple elements by using array
+
+
+
+
+
+
