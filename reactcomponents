@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+
+ </head>
+
+
+    <!-- <div id="root"></div> -->
+    <!-- <div id="a">
+    </div>
+    <script>
+        const b=React.createElement('hi',{id:'c'},"I am ravi");
+        const a=getElementById('a')
+        const root=ReactDOM.createRoot(e)
+        root.render(b)
+    </script> -->
+   <!-- <script type="textt/babel">
+    const App=() => {
+        const islogged=true;
+        return(
+            <div>
+                {islogged ?}
+        )
+    }
+
+   </script> -->
+   <body>
+    <div id="root"></div>
+    <script type="text/babel">
+        //   const App=()=>{
+        //     const isloggedin=true;
+        //     return(
+        //         <div>
+        //             {isloggedin?(<h1> welcome back,user</h1>):(<h1>please,log in</h1>)}
+        //             {isloggedin&&<h1>you have a new notification</h1>}
+        //         </div>
+        //     )
+        //   }
+        //   const root=ReactDOM.createRoot(document.getElementById('root'))
+        //   root.render(<App/>)
+        function getgreeting(name){
+            return `hello ${name}! Welcome to React`
+        }
+        function greeting(){
+            const name="kavya"
+            return <h1> {getgreeting(name)} </h1>
+        }
+    </script>
+
+
+</body>
+</html>
